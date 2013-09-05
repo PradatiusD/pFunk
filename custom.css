@@ -1,0 +1,814 @@
+/* @override 
+	http://pfunk.dev/wp-content/uploads/dynamik-gen/theme/2urn-styles.css */
+
+
+/*input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}*/
+
+body.home .hide-on-home {
+	
+display: none;
+}
+
+#menu-primary-short li.right.search form {
+	position: relative;
+	width: 220px;
+}
+
+#menu-primary-short li.right.search form.search-form input {
+	text-transform: uppercase;
+	position: absolute;
+	top: -3px;
+	bottom: 0px;
+	border: none;
+	border-left: 2px solid #000;
+	float: left;	
+	height: 48px;
+	background: #808080;
+	color: #000;
+		box-shadow: none !important;
+	
+	
+}
+
+#menu-primary-short li.right.search form.search-form input:focus {
+content: "";
+background: #fff;
+	
+}
+
+
+#menu-primary-short li.right.search .search-form input[type="submit"]  {
+	padding: 11px 15px !important;
+	background: #808080;
+	position: absolute;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	top: -3px;
+	bottom: 0px;
+	right: 0;
+	color: #000;
+	
+}
+
+#menu-primary-short li.right.search .search-form input[type="submit"]:hover {
+	background: #ef5a25;
+	color: #fff;
+	
+}
+
+#menu-primary-short li.right.search .search-form input[type="submit"]:active {
+	background: #fff;
+	color: #ef5a25;
+	
+}
+
+
+
+input[type='checkbox'] {
+
+    -webkit-appearance:checkbox;
+
+}
+
+input[type='radio'] {
+
+    -webkit-appearance:select;
+
+}
+
+.bx-wrapper .bx-viewport {
+
+	background: transparent !important;
+	}
+	
+	.bx-wrapper .bx-loading {
+
+		background: transparent url(images/bx_loader.gif) center center no-repeat !important;
+
+	}
+
+	
+html * {
+		outline: none;
+}
+	
+	body.home footer.site-footer {
+/*    position: fixed !important;
+    bottom: 0 !important;
+    background: #080499;
+    width: 100%;*/
+}
+
+body.home {
+    background: #b0191d;
+}
+
+body.home div.site-inner {
+ background-color: #4e0f30  !important;
+
+	}
+
+section#text-5.widget.widget_text h4.widget-title.widgettitle {
+	color:  #000;
+	text-align: center;
+}
+
+
+div.site-inner,  div.entry-content {
+    overflow: visible
+}
+
+
+
+
+
+/* @group Responsive */
+
+@media only screen and (min-width: 1024px) { 
+	div.title-area {
+	    margin-left: -40px !important;
+/*	    position: fixed;*/
+	}
+
+	aside.sidebar.sidebar-secondary {
+/*	    position: fixed;
+	    text-align: center;
+	    margin-left: -15px !important;*/
+	}
+	
+	div#home-hook-wrap.clearfix {
+		width: 910px;
+		margin: 0 auto;
+	}
+	
+	body.home div.site-inner {
+
+		  min-width: 100%;
+		  background-size: contain;
+		      background:  url('images/') no-repeat left bottom;
+		  -webkit-background-size: contain !important;
+		  -moz-background-size: contain !important;
+		  -o-background-size: contain !important;
+		  background-size: c !important;
+		  margin-bottom: 0;
+	}
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) { 
+
+	body.home div.site-inner {
+
+		  min-width: 100%;
+		  background-size: contain;
+		      background:   url('images/') no-repeat left bottom ;
+		  -webkit-background-size: contain !important;
+		  -moz-background-size: contain !important;
+		  -o-background-size: contain !important;
+		  background-size: contain !important;
+		  margin-bottom: 0;
+	}
+
+
+}#featured-post-2  div.wpb_wrapper h4 {
+	text-align: left;
+}
+
+
+
+@media only screen and (max-width: 470px) { 
+	div.title-area {
+	    background-size: contain;
+	    width: 90% !important;
+	}
+
+	img.alignleft.post-image {
+	    float: none;
+	    margin: 32px auto !important;
+	    min-width: 100%;
+	    display: block;
+	    position: relative;
+	    left: -6px;
+	}
+
+	div.entry-content {
+	    overflow: visible
+	}
+}
+
+@media only screen and (max-width: 1023px) { 
+	#gspn-nextpost,
+	#gspn-prevpost {
+	    display: none
+	}
+
+	div.one-half.first {
+	    margin: 0;
+	    padding: 0;
+	}
+
+	    div.one-half.first ul {
+	        margin-bottom: 0;
+	        padding-bottom: 0;
+	    }
+}
+
+/* @end */
+
+/* @group Style */
+
+/* @group EZ HOME PAGE */
+
+/* @group Plugin: Revolution Slidr */
+
+#rev_slider_1_1_wrapper {
+    background: #transparent  url('images/Logowithshadow-1024.jpg') no-repeat center top !important;
+-webkit-background-size: contain !important;
+-moz-background-size: contain !important;
+-o-background-size: contain !important;
+background-size: contain !important;
+}
+
+
+
+
+/* Home Page */
+
+/* @end */
+
+/* @group Header */
+
+/* @group Logo */
+
+/* Contain Logo */
+
+
+
+/* @end */
+
+/* Normal Logo */
+
+div.title-area {
+    background: url('images/pFunk-logo-891x88.png') no-repeat center center !important;
+}
+
+div.title-area {
+    background-size: contain;
+    background-position: center center !important;
+    background: url('images/pFunk-logo-891x88.png') no-repeat center center fixed; 
+-webkit-background-size: contain !important;
+-moz-background-size: contain !important;
+-o-background-size: contain !important;
+background-size: contain !important;
+}
+
+
+/* Retina Logo */
+
+
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+
+	div.title-area {
+	    background: url('images/pFunk-logo-891x88.png') !important;
+		-webkit-background-size: contain !important;
+		-moz-background-size: contain !important;
+		-o-background-size: contain !important;
+		background-size: contain !important;
+	}
+}
+
+/* @end */
+
+/* @group Search */
+
+/* Basic Styling */
+
+#menu-primary li.right.search .search-form input[type="submit"] {
+    padding: 6px 9px 8px 9px;
+    font-size: 1.5em;
+    position: relative;
+    left: -0px;
+    padding: 2px 8px 5px 8px;
+    font-size: 1.1em;
+    position: relative;
+    left: -0px;
+    top: -2px;
+    background: #070498;
+}
+
+.search-form input[type="search"] {
+    box-shadow: 0px 0px 12px #444 inset;
+    background: #666;
+    border: 1px solid #000;
+    position: relative;
+    top: -0px;
+    padding-right: 25px;
+}
+
+/* Mobile iOS styling */
+
+#menu-primary li.right.search form.search-form input {
+    outline: none
+}
+
+html.touch	#menu-primary li.right.search .search-form input[type="submit"] {
+    padding: 2px 4px 3px 4px;
+    font-size: 1.1em;
+    position: relative;
+    left: -0px;
+    top: 0px;
+    background: #070498;
+}
+
+html.touch .search-form input[type="search"] {
+    box-shadow: 0px 0px 12px #000 inset;
+    background: #000 !important;
+    border: 1px solid #000;
+    position: relative;
+    top: 0px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Subnav */
+
+nav.nav-secondary {
+    box-shadow: inset 0px 0px 12px #070051, 0 0 24px rgba(15, 142, 250, 0.25);
+    background: #070498 !important;
+    border-radius: 24px;
+    border: 1px solid #000;
+    position: relative;
+    top: -64px;
+    margin-bottom: -36px;
+    background-image: none !important;
+}
+
+nav.nav-secondary div.wrap {
+	background: transparent !important;
+}
+
+#menu-secondary-sidebar-1 {
+	width: 100%;
+}
+
+/* @end */
+
+/* @group Main Content */
+
+
+
+/* @group H1 - H6 Headings */
+
+/* all headings */
+
+
+.content .post h1, .content .post h2, .content .post h3, .content .post h4, .content .post h5, .content .post h6, .content .page h1, .content .page h2, .content .page h3, .content .page h4, .content .page h5, .content .page h6 { 
+font-weight: normal;
+}
+
+.content .post h1 a, .content .post h2 a, .content .post h3 a, .content .post h4 a, .content .post h5 a, .content .post h6 a, .content .page h1 a, .content .page h2 a, .content .page h3 a, .content .page h4 a, .content .page h5 a, .content .page h6 a { 
+text-decoration: none;
+color: #faaf3a;
+
+}
+
+.content .post h1 a:hover, .content .post h2 a:hover, .content .post h3 a:hover, .content .post h4 a:hover, .content .post h5 a:hover, .content .post h6 a:hover, .content .page h1 a:hover, .content .page h2 a:hover, .content .page h3 a:hover, .content .page h4 a:hover, .content .page h5 a:hover, .content .page h6 a:hover {
+	color: #fff;
+}
+
+
+.content .post h1,
+.content .post h2,
+.content .page h1,
+.content .page h2 {
+
+}
+
+.content .post h3,
+.content .page h3 {
+font: normal 1.25em/1.5em "PT Serif", Times,  serif;
+color: #faaf3a;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+
+.content .post h4,
+.content .page h4 {
+
+}
+
+.content .post h5,
+.content .page h5 {
+
+}
+
+.content .post h6,
+.content .page h6 {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font: bold 1em/1.5em "PT Serif", Times,  serif;
+    font-weight: normal;
+}
+
+/* @end */
+
+/* @group Images */
+
+img.alignleft.post-image {
+	box-shadow: inset 0px 0px 1px #070051, 0 0 24px rgba(15, 142, 250, 0.25);
+	clip-path: none;
+	padding: 6px;
+	border: 1px solid #070051;
+	 border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+/* @end */
+
+/* @group Custom Content Bullets */
+
+/* Create Custom Bullets with ::before / Content */
+
+/* first create an indent with Margin */
+
+
+.entry-content ul {
+    margin-left: 22px ;
+}
+
+/* Reverse indent and hide standard bullets and remove marging  */
+
+    .entry-content ul li {
+        text-indent: -22px ;
+        list-style-type: none;
+        margin: 0;
+        cursor: default;
+    }
+
+/* Add content bullets and styke */
+
+.entry-content ul li::before {
+    content: "✴   ";
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Add hover effect */
+
+.entry-content ul li:hover::before {
+    content: "✴   ";
+    color: #faaf3a;
+}
+
+/* Correct for ill effect to gravity forms elements */
+
+.entry-content	div.gform_body  ul {
+    margin-left: 0px
+}
+
+.entry-content	div.gform_body	 ul li {
+    list-style-type: none;
+    margin: 0;
+    text-indent: 0px !important;
+}
+
+/* @end */
+
+/* @group Crumbs */
+
+/* Crumbs moved to after loop in functions */
+
+div.breadcrumb {
+
+box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.25);
+background: rgba(0, 0, 0, 0.25) !important;
+border-radius: 0px;
+border: 1px solid #000;
+position: relative;
+top: -64px;
+margin-bottom: -36px;
+background-image: none !important;
+
+}
+
+/* @end */
+
+/* @group Post Nav */
+
+/* Pagination UL */
+
+div.archive-pagination.pagination ul {
+    text-align: center
+}
+
+/* All pagination li elements */
+
+    div.archive-pagination.pagination ul li a {
+        border-radius: 24px;
+        padding: 6px 12px;
+        border: 2px solid transparent;
+    }
+
+/* Page Hover */
+
+    div.archive-pagination.pagination ul li a:hover {
+        background: transparent;
+        border-radius: 24px;
+        padding: 6px 12px;
+        border: 2px solid #070051;
+        box-shadow: 0px 0px 12px #070051 inset;
+    }
+
+/* Current Page / Current Page Hover */
+
+    div.archive-pagination.pagination ul li.active a:hover,
+    div.archive-pagination.pagination ul li.active a {
+        background: transparent;
+        border-radius: 24px;
+        padding: 6px 12px;
+        border: 2px solid #070051;
+        box-shadow: 0px 0px 12px #070051 inset;
+        cursor: default !important;
+    }
+
+/* Forwards & Backwards Arrows */
+
+div.archive-pagination.pagination li.pagination-next a:hover,
+div.archive-pagination.pagination li.pagination-previous a:hover,
+div.archive-pagination.pagination li.pagination-next a:active,
+div.archive-pagination.pagination li.pagination-previous a:active {
+    box-shadow: 0px 0px 12px transparent inset;
+    border: 2px solid transparent;
+    background: transparent;
+}
+
+/* Reposition Back and Forward Arrows to Far left/right ne */
+
+/* First Make Main Content Pos Rel */
+
+main.content {
+    position: relative 
+}
+
+/* then add Pos abs to arrows + locat styling */
+
+li.pagination-next {
+    position: absolute;
+    right: 0;
+    margin-top: -0.55em;
+    font-size: 2.2em;
+}
+
+li.pagination-previous {
+    position: absolute;
+    left: 0;
+    margin-top: -0.55em;
+    font-size: 2.2em;
+}
+
+/* @end */
+
+/* @group Gravity Forms */
+
+#gform_1 div.gform_footer {
+    height: 32px
+}
+
+
+/* Required Asterix */
+span.gfield_required {
+	color: #faaf3a !important;
+	font-weight: normal;
+	font-size: 1.5em;
+	position: relative;
+	bottom: -0.25em;
+}
+
+/* Textfields  & Areas */
+
+div.gform_body input, div.gform_body textarea  {
+font-size: 1.25em !important;
+	background: #faaf3a;
+	border: 1px solid #faaf3a;
+padding: 6px !important;	
+}
+
+/* Textfields & Areas :focused */
+div.gform_body input:focus, div.gform_body textarea:focus {
+	background: #fff;
+	border: 1px solid #faaf3a;
+}
+
+/* Submit Button */
+
+.gform_footer .gform_button {
+	background: #fff;
+	border: 1px solid #333;
+	padding: 10px 15px !important;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #ef5a25 !important;
+	font-weight: bold;
+	
+}
+
+
+.gform_footer .gform_button:hover {
+	background: #ef5a25 ;
+	color: #fff !important;
+	cursor: pointer;
+}
+
+
+.gform_footer .gform_button:active {
+	color: #faaf3a !important;
+	background: #fff;
+}
+
+div.gfield_description {
+	text-transform: uppercase !important;
+}
+
+/* Validation Errors */
+
+		div.gform_body .gfield_error.gfield_contains_required {
+			background: #070051 !important;
+			border: 1px solid #070051 !important;
+			border-radius: 12px;
+		}
+		
+		div.gform_body .gfield.gfield_error.gfield_contains_required input,
+		div.gform_body .gfield.gfield_error.gfield_contains_required textarea
+		 {
+			border: 1px dotted #faaf3a !important;
+			background: white !important;
+		}
+		
+		div.validation_error {
+			color: white !important;
+		}
+		
+		div.gform_body .gfield_error.gfield_contains_required label,
+		div.gform_body .ginput_complex.ginput_container label,
+		div.gform_body .gfield_error.gfield_contains_required div.gfield_description.validation_message
+		
+		 {
+		color: white !important;
+	
+		}
+
+/* @end */
+
+/* @group Videos */
+
+/* Make Video IFRAMES Responsive */
+
+.entry-content p iframe {
+	width: 100%;
+
+	overflow: visible !important;
+
+}
+
+/* @end */
+
+/* @group Comment Form */
+
+/* add space below submit button */
+
+#commentform {
+	padding-bottom: 32px;
+}
+
+#commentform input#submit {
+	padding: 8px 15px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+p.form-allowed-tags {
+	border-left: 0px;
+	border-right: 0px;
+}
+
+#commentform p.comment-form-comment label {
+	visibility: hidden;
+}
+
+
+#commentform textarea, #commentform input {
+	
+}
+
+#commentform textarea:focus, #commentform input:focus {
+background: #fff;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Sidebar Primary
+ */
+
+
+
+/* @end */
+
+/* @group Sidebar ALT */
+
+/* Hide the subnav from the header (to move it to above the loop) */
+
+
+div.site-container > nav.nav-secondary {
+    display: none !important
+}
+
+/* Secondary Sidebar "Menu Center Align */
+aside.sidebar.sidebar-secondary {
+    text-align: center
+}
+
+/* @end */
+
+/* @group Single Page / Post Navigation */
+
+#gspn-prevpost a,
+#gspn-nextpost a,
+#gspn-prevpost-reverse a,
+#gspn-nextpost-reverse a {
+    border-top: 0px dotted #ccc;
+    border-bottom: 0px dotted #ccc;
+    color: #000 !important;
+    font-size: 100px;
+    line-height: 105px;
+    padding-bottom: 15px;
+    position: fixed;
+    text-align: center;
+    top: 42%;
+    vertical-align: middle;
+    width: 80px;
+}
+
+#gspn-prevpost a:hover,
+#gspn-nextpost a:hover,
+#gspn-prevpost-reverse a:hover,
+#gspn-nextpost-reverse a:hover {
+    color: #faaf3a !important;
+    text-decoration: none;
+}
+
+_#gspn-prevpost a,
+_#gspn-nextpost a,
+_#gspn-prevpost-reverse a,
+_#gspn-nextpost-reverse a {
+    position: absolute
+}
+
+#gspn-prevpost a,
+#gspn-nextpost-reverse a {
+    right: 0px
+}
+
+#gspn-nextpost a,
+#gspn-prevpost-reverse a {
+    left: 0px
+}
+
+@media only screen and max-width 1100px { 
+	.gspn-area,
+	#gspn-prevpost,
+	#gspn-nextpost,
+	#gspn-prevpost-reverse,
+	#gspn-nextpost-reverse {
+	    display: none!important
+	}
+}
+
+
+#gspn-nextpost a,
+#gspn-prevpost a {
+    border: none !important
+}
+
+/* @end */
+
+/* @group Footer */
+
+/* Keep footer from riding two high */
+
+div.site-container {
+    min-height: 768px
+}
+
+/* @end */
+
+/* @end */
