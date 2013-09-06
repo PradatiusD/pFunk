@@ -810,9 +810,27 @@ _#gspn-nextpost-reverse a {
 
 /* @end */
 
+/* Styling for services page */
+	article.services-third {
+		width: 31%;
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 1%;
+	}
+
+	.entry-content article.services-third h3 {
+		font-family: 'Open Sans Condensed';
+		text-transform: none;
+	}
+	article.services-third p, article.services-third ul li {
+		font-weight: 200;
+		font-size: 0.95em;
+	}
+/* @end*/
+
 /* @group Footer */
 
-/* Keep footer from riding two high */
+/* Keep footer from riding too high */
 
 div.site-container {
     min-height: 768px
