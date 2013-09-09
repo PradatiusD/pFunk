@@ -811,18 +811,14 @@ _#gspn-nextpost-reverse a {
 /* @end */
 
 /* Styling for services page */
-	article.services-third {
-		width: 31%;
-		display: inline-block;
-		vertical-align: top;
-		padding: 0 1%;
+	.entry-content .services-thirds {
 	}
 
-	.entry-content article.services-third h3 {
+	.entry-content .services-thirds h3 {
 		font-family: 'Open Sans Condensed';
 		text-transform: none;
 	}
-	article.services-third p, article.services-third ul li {
+	.entry-content .services-thirds p, .services-thirds ul li {
 		font-weight: 200;
 		font-size: 0.95em;
 	}
