@@ -9,6 +9,5 @@
 
 <script type="text/javascript" src="//use.typekit.net/pve4mhm.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.js"></script>

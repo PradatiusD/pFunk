@@ -13,6 +13,15 @@ body.home .hide-on-home {
 display: none;
 }
 
+
+.menu-primary a {
+ -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+          transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+
 #menu-primary-short li.right.search form {
 	position: relative;
 	width: 220px;
@@ -107,12 +116,21 @@ body.home {
     background: black;
 }
 
+/* Remove awkward // appearing right after Revolution Slider on Homepage*/
+
+body.home .site-container {
+    color: black;
+}
+
 body.home div.site-inner {
  background-color: #4e0f30  !important;
 
-	}
+}
 
-section#text-5.widget.widget_text h4.widget-title.widgettitle {
+
+
+
+body.home section#text-5.widget.widget_text h4.widget-title.widgettitle {
 	color:  #000;
 	text-align: center;
 }
@@ -122,6 +140,13 @@ div.site-inner,  div.entry-content {
     overflow: visible
 }
 
+/* Hide the twitter widgets on mobile display */
+
+@media only screen and (max-width: 930px) {
+	section#text-12 {
+		display:none;
+	}
+}
 
 
 

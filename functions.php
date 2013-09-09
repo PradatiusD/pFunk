@@ -37,12 +37,12 @@ function custom_enqueue_scripts()
 
 add_filter( 'genesis_search_button_text', 'search_button_txt_2urn' );
 function search_button_txt_2urn() {
-	return "�";
+	return "";
 }
 
 add_filter( 'genesis_search_text', 'search_form_text_2urn' );
 function search_form_text_2urn() {
-	return "search";
+	return "SEARCH";
 }
 //* Move the submenu
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
